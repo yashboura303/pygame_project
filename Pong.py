@@ -66,6 +66,8 @@ def circle(radius, height, width,Display_Surf,lead_y1,lead_y2):
                 direction = "leftdown"
             elif x == width-radius or x > width-radius:
                 game_over = True
+                x = 400
+                y = 400
 
     elif direction == "rightup":
         x += ball_vel
@@ -78,6 +80,8 @@ def circle(radius, height, width,Display_Surf,lead_y1,lead_y2):
                 direction = "leftup"
             elif x == width-radius or x > width-radius:
                 game_over = True
+                x = 400
+                y = 400
 
 
     elif direction == "leftup":
